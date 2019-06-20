@@ -5,3 +5,6 @@ Indonesia is a really big nation with more than 200 million inhabitants, this ma
 
 ## Dataset
 I collected the data based on top 45 youtube channel rank in [socialblade.com](https://socialblade.com/youtube/top/country/id) as per May 2019.![image](https://github.com/AnggaPradiktas/YoutubeTitlePrediction-PySpark/blob/master/image/top45socialbladeindo.png) And then I putted it into Big Query cause the data is pretty large (400-500MB).
+
+## Data Preprocessing
+Here we want to use a supervised learning using classification, but our data doesn't have any classification yet so that we need to preprocess the data to determine the classes. We selected video views that less than equal 5,000,000 to avoid outliers and then created classes as we named it 'viewGroup'. Here is you can access the code on [Preprocessing Youtube Title.ipynb](https://github.com/AnggaPradiktas/YoutubeTitlePrediction-PySpark/blob/master/Preprocessing%20Youtube%20Title.ipynb)
