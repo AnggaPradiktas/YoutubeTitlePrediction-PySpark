@@ -20,6 +20,7 @@ Build a pipeline using PySpark ML and convert the classes using OneHotEnconder s
 ## Output
 We tried to train using Logistic Regression and Logistic Regression using TFIDF. 
 <br>
+<br>
 Logistic Regression
 ![image](https://github.com/AnggaPradiktas/YoutubeTitlePrediction-PySpark/blob/master/image/lr.png)
 ![image](https://github.com/AnggaPradiktas/YoutubeTitlePrediction-PySpark/blob/master/image/lr_acc.png)
