@@ -12,3 +12,4 @@ Here we want to use a supervised learning using classification, but our data doe
 Here is you can access the code on [Preprocessing Youtube Title.ipynb](https://github.com/AnggaPradiktas/YoutubeTitlePrediction-PySpark/blob/master/Preprocessing%20Youtube%20Title.ipynb)
 
 ## Training and Testing the Data
+We trained the data using [PySpark](https://spark.apache.org/docs/latest/api/python/index.html) cause we were dealing with pretty large text data and it would run really slow it we use pandas. 
