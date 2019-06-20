@@ -12,4 +12,16 @@ Here we want to use a supervised learning using classification, but our data doe
 Here is you can access the code on [Preprocessing Youtube Title.ipynb](https://github.com/AnggaPradiktas/YoutubeTitlePrediction-PySpark/blob/master/Preprocessing%20Youtube%20Title.ipynb)
 
 ## Training and Testing the Data
-We trained the data using [PySpark](https://spark.apache.org/docs/latest/api/python/index.html) cause we were dealing with pretty large text data and it would run really slow it we use pandas. 
+We trained the data using [PySpark](https://spark.apache.org/docs/latest/api/python/index.html) cause we were dealing with pretty large text data and it would run really slow it we use pandas. After that we need to initiate the SparkSession in our local machine.
+
+## Build a Pipeline Model
+Build a pipeline using PySpark ML and convert the classes using OneHotEnconder so we could analyse further using Logistic Regression. Here you can find the [code](https://github.com/AnggaPradiktas/YoutubeTitlePrediction-PySpark/blob/master/Prediction%20Using%20Spark.ipynb).
+
+## Output
+We tried to train using Logistic Regression and Logistic Regression using TFIDF. 
+Logistic Regression
+![image](https://github.com/AnggaPradiktas/YoutubeTitlePrediction-PySpark/blob/master/image/lr.png)
+![image](https://github.com/AnggaPradiktas/YoutubeTitlePrediction-PySpark/blob/master/image/lr_acc.png)
+
+Logistic Regression TFIDF
+![image](https://github.com/AnggaPradiktas/YoutubeTitlePrediction-PySpark/blob/master/image/lr_idf.png)
